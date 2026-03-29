@@ -1,0 +1,70 @@
+{
+    com.badlogic.gdx.graphics.g2d.BitmapFont: {
+        default: { file: Font/Font.fnt }
+    }
+
+    com.badlogic.gdx.graphics.Color:{
+        FireMage:{r:0.8,g:0.6,b:0.0,a:1.0},
+    }
+
+    rpg.dungeon.Engine.GUI.Bar$BarStyle:{
+        rot:{Background:BarrotBG,Bar:Barrot,start:31,end:93},
+        cyan:{Background:BarcyanBG,Bar:Barcyan,start:31,end:93},
+        blau:{Background:BarblauBG,Bar:Barblau,start:31,end:93},
+        grun:{Background:BargrunBG,Bar:Bargrun,start:31,end:93},
+        gelb:{Background:BargelbBG,Bar:Bargelb,start:31,end:93},
+        orange:{Background:BarorangeBG,Bar:Barorange,start:31,end:93},
+        lila:{Background:BarlilaBG,Bar:Barlila,start:31,end:93}
+        Flame:{Background:Flame,Bar:Action,start:0,end:24,vert:true}
+        Bomb:{Background:Explosion,Bar:Action,start:0,end:24,vert:true}
+        Fire:{Background:Fire,Bar:Action,start:0,end:24,vert:true}
+        Splash:{Background:Splash,Bar:Action,start:0,end:24,vert:true}
+    }
+
+    rpg.dungeon.Engine.GUI.DifferenceBar$DifferenceBarStyle:{
+        armor:{Background:ArmorvalueBG,Bar:Armorvalue,less:Armorvalueless,more:Armorvaluemore,start:0,end:90}
+    }
+
+    rpg.dungeon.Engine.Drawable.DrawableBar$BarStyle:{
+        Opponent:{Background:BarBG,Bar:Bar,start:0,end:12}
+    }
+
+    rpg.dungeon.Entity.Player.ActionsHolder$ActionsHolderStyle:{
+        Fire:{Background:Actionsholder,actionsnames:["Bomb","Flame","Fire","Splash"]},
+    }
+
+    rpg.dungeon.Entity.Player.PotionsHolder$PotionsHolderStyle:{
+        default:{Background:Potionsholder},
+    }
+
+    rpg.dungeon.Entity.Opponents.Opponent$OpponentSettings:{
+        #Pattern:{runspeed:0,animationspeed:0,radius:0,cooldown:0,distance:0,lookradius:0}
+        Bat:{runspeed:1,animationspeed:0.1,radius:8,cooldown:0.5,distance:false,maxlive:100,lookradius:120},
+    }
+
+    rpg.dungeon.Entity.Player.Inventory.Inventory$InventoryStyle:{
+        Armor:{background:InventarArmor,darker:darker},
+        Potions:{background:InventarPotions,darker:darker},
+    }
+
+    com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+    	description: { font: default }
+    }
+
+    com.badlogic.gdx.scenes.scene2d.ui.ScrollPane$ScrollPaneStyle: {
+    	description: {background:InventarArmorDescription}
+    }
+
+    rpg.dungeon.Entity.Player.Inventory.Item.ItemsHolderPane$ItemsHolderPaneStyle:{
+        armoritems: {background:InventarArmorItems,selector:ArmorHolderSelector,selectorsteps:27}
+    }
+
+
+    rpg.dungeon.Entity.Player.Player$PlayerStyle:{
+        FireMage:{actionsHolder:"Fire",dispenserspakage:"rpg.dungeon.Entity.Player.FireMage",dispensersnames:["BombDispenser","FlameDispenser","FireDispenser","SplashDispenser"],font:default,color:FireMage},
+    }
+
+    rpg.dungeon.Entity.Player.Inventory.Item.ItemsHolder$ItemsHolderStyle:{
+        armor:{itemsHolder:ArmorHolder},
+    }
+}

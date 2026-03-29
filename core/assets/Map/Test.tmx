@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="24" tileheight="24">
+ <tileset firstgid="1" name="Ground" tilewidth="24" tileheight="24">
+  <image source="../Tileset/Ground.png" width="144" height="72"/>
+  <terraintypes>
+   <terrain name="Boden" tile="-1"/>
+   <terrain name="Oben" tile="-1"/>
+  </terraintypes>
+  <tile id="0" terrain="1,1,1,0">
+   <objectgroup draworder="index">
+    <object x="10" y="4" width="4" height="20"/>
+    <object x="12" y="0" width="12" height="4"/>
+    <object x="14" y="4" width="10" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="1" terrain="1,1,0,0">
+   <objectgroup draworder="index">
+    <object x="0" y="0" width="24" height="20"/>
+   </objectgroup>
+  </tile>
+  <tile id="2" terrain="1,1,0,1">
+   <objectgroup draworder="index">
+    <object x="0" y="0" width="12" height="4"/>
+    <object x="10" y="4" width="4" height="20"/>
+    <object x="0" y="4" width="10" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="3" terrain="0,0,0,1">
+   <objectgroup draworder="index">
+    <object x="12" y="20" width="12" height="4"/>
+   </objectgroup>
+  </tile>
+  <tile id="4" terrain="0,0,1,1">
+   <objectgroup draworder="index">
+    <object x="0" y="20" width="24" height="4"/>
+   </objectgroup>
+  </tile>
+  <tile id="5" terrain="0,0,1,0">
+   <objectgroup draworder="index">
+    <object x="0" y="20" width="12" height="4"/>
+   </objectgroup>
+  </tile>
+  <tile id="6" terrain="1,0,1,0">
+   <objectgroup draworder="index">
+    <object x="10" y="0" width="4" height="24"/>
+   </objectgroup>
+  </tile>
+  <tile id="7" terrain="0,0,0,0"/>
+  <tile id="8" terrain="0,1,0,1">
+   <objectgroup draworder="index">
+    <object x="10" y="0" width="4" height="24"/>
+   </objectgroup>
+  </tile>
+  <tile id="9" terrain="0,1,0,1">
+   <objectgroup draworder="index">
+    <object x="10" y="0" width="4" height="24"/>
+   </objectgroup>
+  </tile>
+  <tile id="10" terrain="1,1,1,1"/>
+  <tile id="11" terrain="1,0,1,0">
+   <objectgroup draworder="index">
+    <object x="10" y="0" width="4" height="24"/>
+   </objectgroup>
+  </tile>
+  <tile id="12" terrain="1,0,1,1">
+   <objectgroup draworder="index">
+    <object x="10" y="0" width="4" height="24"/>
+    <object x="14" y="20" width="10" height="4"/>
+   </objectgroup>
+  </tile>
+  <tile id="13" terrain="0,0,1,1">
+   <objectgroup draworder="index">
+    <object x="0" y="20" width="24" height="4"/>
+   </objectgroup>
+  </tile>
+  <tile id="14" terrain="0,1,1,1">
+   <objectgroup draworder="index">
+    <object x="0" y="20" width="10" height="4"/>
+    <object x="10" y="0" width="4" height="24"/>
+   </objectgroup>
+  </tile>
+  <tile id="15" terrain="0,1,0,0">
+   <objectgroup draworder="index">
+    <object x="10" y="0" width="2" height="16"/>
+    <object x="12" y="0" width="12" height="20"/>
+   </objectgroup>
+  </tile>
+  <tile id="16" terrain="1,1,0,0">
+   <objectgroup draworder="index">
+    <object x="0" y="0" width="24" height="20"/>
+   </objectgroup>
+  </tile>
+  <tile id="17" terrain="1,0,0,0">
+   <objectgroup draworder="index">
+    <object x="12" y="0" width="2" height="16"/>
+    <object x="0" y="0" width="12" height="20"/>
+   </objectgroup>
+  </tile>
+ </tileset>
+ <tileset firstgid="19" name="Top" tilewidth="24" tileheight="24">
+  <image source="../Tileset/Top.png" width="144" height="72"/>
+  <terraintypes>
+   <terrain name="Boden" tile="-1"/>
+   <terrain name="Oben" tile="-1"/>
+  </terraintypes>
+  <tile id="0" terrain="1,1,1,0">
+   <objectgroup draworder="index">
+    <object x="0" y="4" width="10" height="20"/>
+    <object x="0" y="0" width="12" height="4"/>
+   </objectgroup>
+  </tile>
+  <tile id="1" terrain="1,1,0,0">
+   <objectgroup draworder="index"/>
+  </tile>
+  <tile id="2" terrain="1,1,0,1">
+   <objectgroup draworder="index">
+    <object x="14" y="4" width="10" height="20"/>
+    <object x="12" y="0" width="12" height="4"/>
+   </objectgroup>
+  </tile>
+  <tile id="3" terrain="0,0,0,1">
+   <objectgroup draworder="index">
+    <object x="14" y="8" width="10" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="4" terrain="0,0,1,1">
+   <objectgroup draworder="index">
+    <object x="0" y="8" width="24" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="5" terrain="0,0,1,0">
+   <objectgroup draworder="index">
+    <object x="0" y="8" width="10" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="6" terrain="1,0,1,0">
+   <objectgroup draworder="index">
+    <object x="0" y="0" width="10" height="24"/>
+   </objectgroup>
+  </tile>
+  <tile id="7" terrain="0,0,0,0"/>
+  <tile id="8" terrain="0,1,0,1">
+   <objectgroup draworder="index">
+    <object x="14" y="0" width="10" height="24"/>
+   </objectgroup>
+  </tile>
+  <tile id="9" terrain="0,1,0,1">
+   <objectgroup draworder="index">
+    <object x="14" y="0" width="10" height="24"/>
+   </objectgroup>
+  </tile>
+  <tile id="10" terrain="1,1,1,1">
+   <objectgroup draworder="index">
+    <object x="0" y="0" width="24" height="24"/>
+   </objectgroup>
+  </tile>
+  <tile id="11" terrain="1,0,1,0">
+   <objectgroup draworder="index">
+    <object x="0" y="0" width="10" height="24"/>
+   </objectgroup>
+  </tile>
+  <tile id="12" terrain="1,0,1,1">
+   <objectgroup draworder="index">
+    <object x="0" y="0" width="10" height="4"/>
+    <object x="0" y="4" width="12" height="4"/>
+    <object x="0" y="8" width="24" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="13" terrain="0,0,1,1">
+   <objectgroup draworder="index">
+    <object x="0" y="8" width="24" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="14" terrain="0,1,1,1">
+   <objectgroup draworder="index">
+    <object x="14" y="0" width="10" height="4"/>
+    <object x="12" y="4" width="12" height="4"/>
+    <object x="0" y="8" width="24" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="15" terrain="0,1,0,0">
+   <objectgroup draworder="index"/>
+  </tile>
+  <tile id="16" terrain="1,1,0,0">
+   <objectgroup draworder="index"/>
+  </tile>
+  <tile id="17" terrain="1,0,0,0">
+   <objectgroup draworder="index"/>
+  </tile>
+ </tileset>
+ <layer name="Kachelebene 1" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt18kOgyAUBVA6z3b4/48tNJgSNtWmtdacxQlINEFevMghhHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHmbRNZsX7bwYLy1GMOcpO0bLaB1tO/T3I5jzlKV6XKJbXvdX/d0I5jxlm7zeXfk+vl8PeTW8tG/X+3Tqpwzqk1fq8Rl9c0leDVOPlDurqMntOsirX9aj/j9K4/JqGO1Zr90n2nUtz3Z9c8z/7vuOHda273lQPb5bD3k1nFN47ttN0W+vz/meVXVPUz1XP/Pr9/pHd/9drHo=
+  </data>
+ </layer>
+ <objectgroup name="Objektebene 1">
+  <object name="Player" type="Player" x="120" y="2352" width="24" height="24"/>
+  <object name="Light" type="Light" x="84" y="2316">
+   <properties>
+    <property name="Intensity" value="0.5"/>
+    <property name="Strength" value="120"/>
+   </properties>
+  </object>
+  <object name="Light" type="Light" x="180" y="2316">
+   <properties>
+    <property name="Intensity" value="0.5"/>
+    <property name="Strength" value="120"/>
+   </properties>
+  </object>
+  <object name="Light" type="Light" x="180" y="2388">
+   <properties>
+    <property name="Intensity" value="0.5"/>
+    <property name="Strength" value="120"/>
+   </properties>
+  </object>
+  <object name="Light" type="Light" x="84" y="2388">
+   <properties>
+    <property name="Intensity" value="0.5"/>
+    <property name="Strength" value="120"/>
+   </properties>
+  </object>
+  <object name="Light" type="Light" x="132" y="2220">
+   <properties>
+    <property name="Intensity" value="1"/>
+    <property name="Strength" value="120"/>
+   </properties>
+  </object>
+  <object name="Light" type="Light" x="288" y="2220">
+   <properties>
+    <property name="Intensity" value="0.5"/>
+    <property name="Strength" value="96"/>
+   </properties>
+  </object>
+  <object name="Light" type="Light" x="360" y="2220">
+   <properties>
+    <property name="Intensity" value="0.5"/>
+    <property name="Strength" value="96"/>
+   </properties>
+  </object>
+  <object name="Light" type="Light" x="432" y="2220">
+   <properties>
+    <property name="Intensity" value="0.5"/>
+    <property name="Strength" value="96"/>
+   </properties>
+  </object>
+  <object name="Light" type="Light" x="504" y="2220">
+   <properties>
+    <property name="Intensity" value="0.5"/>
+    <property name="Strength" value="96"/>
+   </properties>
+  </object>
+  <object name="Light" type="Light" x="288" y="2148">
+   <properties>
+    <property name="Intensity" value="0.5"/>
+    <property name="Strength" value="96"/>
+   </properties>
+  </object>
+  <object name="Light" type="Light" x="504" y="2148">
+   <properties>
+    <property name="Intensity" value="0.5"/>
+    <property name="Strength" value="96"/>
+   </properties>
+  </object>
+  <object name="Light" type="Light" x="360" y="2148">
+   <properties>
+    <property name="Intensity" value="0.5"/>
+    <property name="Strength" value="96"/>
+   </properties>
+  </object>
+  <object name="Light" type="Light" x="432" y="2148">
+   <properties>
+    <property name="Intensity" value="0.5"/>
+    <property name="Strength" value="96"/>
+   </properties>
+  </object>
+  <object name="Light" type="Light" x="288" y="2292">
+   <properties>
+    <property name="Intensity" value="0.5"/>
+    <property name="Strength" value="96"/>
+   </properties>
+  </object>
+  <object name="Light" type="Light" x="504" y="2292">
+   <properties>
+    <property name="Intensity" value="0.5"/>
+    <property name="Strength" value="96"/>
+   </properties>
+  </object>
+  <object name="Light" type="Light" x="360" y="2292">
+   <properties>
+    <property name="Intensity" value="0.5"/>
+    <property name="Strength" value="96"/>
+   </properties>
+  </object>
+  <object name="Light" type="Light" x="432" y="2292">
+   <properties>
+    <property name="Intensity" value="0.5"/>
+    <property name="Strength" value="96"/>
+   </properties>
+  </object>
+  <object name="Light" type="Light" x="288" y="2364">
+   <properties>
+    <property name="Intensity" value="0.5"/>
+    <property name="Strength" value="96"/>
+   </properties>
+  </object>
+  <object name="Light" type="Light" x="504" y="2364">
+   <properties>
+    <property name="Intensity" value="0.5"/>
+    <property name="Strength" value="96"/>
+   </properties>
+  </object>
+  <object name="Light" type="Light" x="360" y="2364">
+   <properties>
+    <property name="Intensity" value="0.5"/>
+    <property name="Strength" value="96"/>
+   </properties>
+  </object>
+  <object name="Light" type="Light" x="432" y="2364">
+   <properties>
+    <property name="Intensity" value="0.5"/>
+    <property name="Strength" value="96"/>
+   </properties>
+  </object>
+  <object name="Bat" type="Bat" x="264" y="2232" width="24" height="24"/>
+  <object name="Bat" type="Bat" x="288" y="2232" width="24" height="24"/>
+  <object name="Bat" type="Bat" x="312" y="2232" width="24" height="24"/>
+  <object name="Bat" type="Bat" x="312" y="2208" width="24" height="24"/>
+  <object name="Bat" type="Bat" x="312" y="2184" width="24" height="24"/>
+  <object name="Bat" type="Bat" x="312" y="2256" width="24" height="24"/>
+  <object name="Bat" type="Bat" x="312" y="2280" width="24" height="24"/>
+ </objectgroup>
+</map>

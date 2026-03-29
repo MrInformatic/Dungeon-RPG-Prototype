@@ -1,0 +1,159 @@
+
+GUI.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+Actionsholder
+  rotate: false
+  xy: 1, 30
+  size: 84, 84
+  orig: 84, 84
+  offset: 0, 0
+  index: -1
+Barlila
+  rotate: false
+  xy: 87, 98
+  size: 96, 16
+  orig: 96, 16
+  offset: 0, 0
+  index: -1
+Barrot
+  rotate: false
+  xy: 87, 80
+  size: 96, 16
+  orig: 96, 16
+  offset: 0, 0
+  index: -1
+BarrotBG
+  rotate: false
+  xy: 185, 98
+  size: 96, 16
+  orig: 96, 16
+  offset: 0, 0
+  index: -1
+Bargelb
+  rotate: false
+  xy: 87, 62
+  size: 96, 16
+  orig: 96, 16
+  offset: 0, 0
+  index: -1
+BarlilaBG
+  rotate: false
+  xy: 185, 80
+  size: 96, 16
+  orig: 96, 16
+  offset: 0, 0
+  index: -1
+BarblauBG
+  rotate: false
+  xy: 283, 98
+  size: 96, 16
+  orig: 96, 16
+  offset: 0, 0
+  index: -1
+Bargrun
+  rotate: false
+  xy: 87, 44
+  size: 96, 16
+  orig: 96, 16
+  offset: 0, 0
+  index: -1
+Barorange
+  rotate: false
+  xy: 185, 62
+  size: 96, 16
+  orig: 96, 16
+  offset: 0, 0
+  index: -1
+Barcyan
+  rotate: false
+  xy: 283, 80
+  size: 96, 16
+  orig: 96, 16
+  offset: 0, 0
+  index: -1
+BarcyanBG
+  rotate: false
+  xy: 381, 98
+  size: 96, 16
+  orig: 96, 16
+  offset: 0, 0
+  index: -1
+Barblau
+  rotate: false
+  xy: 185, 44
+  size: 96, 16
+  orig: 96, 16
+  offset: 0, 0
+  index: -1
+BargelbBG
+  rotate: false
+  xy: 283, 62
+  size: 96, 16
+  orig: 96, 16
+  offset: 0, 0
+  index: -1
+BarorangeBG
+  rotate: false
+  xy: 381, 80
+  size: 96, 16
+  orig: 96, 16
+  offset: 0, 0
+  index: -1
+BargrunBG
+  rotate: false
+  xy: 283, 44
+  size: 96, 16
+  orig: 96, 16
+  offset: 0, 0
+  index: -1
+Action
+  rotate: false
+  xy: 1, 4
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+Explosion
+  rotate: false
+  xy: 479, 90
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+Fire
+  rotate: false
+  xy: 381, 54
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+Splash
+  rotate: false
+  xy: 27, 4
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+Flame
+  rotate: false
+  xy: 407, 54
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+Bar
+  rotate: false
+  xy: 87, 41
+  size: 8, 1
+  orig: 8, 1
+  offset: 0, 0
+  index: -1
+BarBG
+  rotate: false
+  xy: 1, 1
+  size: 8, 1
+  orig: 8, 1
+  offset: 0, 0
+  index: -1
